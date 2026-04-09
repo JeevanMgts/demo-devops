@@ -16,7 +16,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: userservice
-          image: ghcr.io/jeevanmgts/userservice:v1
+          image: ghcr.io/jeevanmgts/userservice:latest
           ports:
             - containerPort: 8080
           env:
